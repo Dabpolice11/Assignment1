@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur:wght@400..900&display=swap');
 h1{
-    color: #343434;
+    color: #FFFFFF;
+        font-family: "Tektur", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+    text-decoration: underline;
 }
 
 p{
-    color: #343434;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 body{
@@ -18,29 +31,34 @@ body{
         ;
 }
 header{
-    background-color: #0E34A0;
-    color: #343434;
-    grid-area: 20px;
+    background-color: #1F487E;
+    color: #FFFFFF;
+    font: tektur;
+    grid-area: header;
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: #1D3461;
+    color: #FFFFFF;
     grid-area: nav;
+    padding: 5px;
 }
 
 main{
-    background-color: aqua;
-    color: #343434;
+    background-color: #376996;
+    color: #FFFFFF;
     grid-area: main;
 }
 
 aside{
-    background-color: blanchedalmond;
+    background-color: #1D3461;
+    color: #FFFFFF;
     grid-area: aside; 
 }
 
 footer{
-    background-color: blueviolet;
-    color: #343434;
+    background-color: #6290C8;
+    color: #FFFFFF;
     grid-area: footer;
 }
+
