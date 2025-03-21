@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: #FFFFFF;
         font-family: "Tektur", sans-serif;
@@ -32,8 +36,8 @@ body{
 }
 header{
     background-color: #1F487E;
+    padding: 1em;
     color: #FFFFFF;
-    font: tektur;
     grid-area: header;
 }
 
@@ -41,24 +45,69 @@ nav{
     background-color: #1D3461;
     color: #FFFFFF;
     grid-area: nav;
-    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2em;
 }
 
 main{
     background-color: #376996;
     color: #FFFFFF;
     grid-area: main;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em;
 }
 
 aside{
     background-color: #1D3461;
     color: #FFFFFF;
     grid-area: aside; 
+    padding: 1em;
 }
 
 footer{
     background-color: #6290C8;
     color: #FFFFFF;
     grid-area: footer;
+    padding: 1em;
 }
 
+.indexText{
+    padding: 1.5em;
+}
+
+.CartoonOfMe{
+    border: solid;
+    border-color: black;
+    border-width: 1em;
+    
+}
+
+.PlaceholderImage{
+    border: solid;
+    border-color: black;
+    border-width: 1em;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #1D3461;
+    overflow:auto;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-decoration: underline;
+    font-size: 2em;
+    width: 20%;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #000;
+}
