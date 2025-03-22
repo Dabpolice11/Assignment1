@@ -16,10 +16,6 @@ body {
     content: "☰";
 }
 
-.Off::before {
-    content: "X";
-}
-
 
 nav {
     display: none;
@@ -35,8 +31,7 @@ nav {
     display: block;
 }
 
-.On,
-.Off {
+.On {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -47,16 +42,8 @@ nav {
     display: block;
 }
 
-.Off {
-    display: none;
-}
-
 #NavOn:target~.On {
     display: none;
-}
-
-#NavOff:target~.Off {
-    display: block;
 }
 
 .navbar {
@@ -70,3 +57,4 @@ nav {
     padding: 10px;
     text-decoration: underline;
 }
+
