@@ -51,12 +51,14 @@ body{
 }
 
 
+
 header{
-    background-color: #1F487E;
+    background-color: #1D2D44;
     padding: 1em;
     color: #FFFFFF;
     grid-area: header;
     font-size: 1.5em;
+    
 }
 
 nav{
@@ -72,12 +74,13 @@ nav{
 }
 
 main{
-    background-color: #376996;
+    background-color: #3E5C76;
     color: #FFFFFF;
     grid-area: main;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5em;
     padding: 1em;
+    
 }
 
 aside{
@@ -116,8 +119,6 @@ footer{
     
 }
 
-
-
 .PlaceholderImage{
     border: solid;
     border-color: black;
@@ -141,6 +142,16 @@ footer{
 }
 
 .navbar a:hover{
-    background-color: #000;
+    background-color: #1D2D44;
 }
 
+.Index{
+    background-color: #3E5C76;
+    color: #FFFFFF;
+    grid-area: main;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    padding: 1em;
+    background-image: url('code.jpg');
+  background-repeat: no-repeat;
+}
