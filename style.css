@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,6 @@ h1{
         font-family: "Tektur", sans-serif;
         font-optical-sizing: auto;
         font-weight: <weight>;
-        font-style: normal;
         font-variation-settings:
           "wdth" 100;
     text-decoration: underline;
@@ -37,18 +37,6 @@ a{
     color: #FFFFFF;
 }
 
-body{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows:auto ;
-    grid-template-areas:
-        "nav nav nav nav"
-        "header header header header"
-        "main main main aside"
-        "footer footer footer footer"
-        ;
-}
 
 
 
@@ -65,12 +53,13 @@ nav{
     background-color: #1D3461;
     color: #FFFFFF;
     grid-area: nav;
-    font-family: 'Times New Roman', Times, serif;
     padding: 2em;
-    font-family: "Winky Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Tektur", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-variation-settings:
+          "wdth" 100;
+    text-decoration: underline;
 }
 
 main{
