@@ -17,24 +17,10 @@ h1 {
 
 }
 
-p {
-    color: #FFFFFF;
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-li {
-    color: white;
-}
 
 a {
-    text-decoration: none;
     color: #FFFFFF;
 }
-
-
 
 
 header {
@@ -110,3 +96,24 @@ footer {
     border-width: 1em;
     border-radius: 5%;
 }
+
+input[type=text], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 0.5em solid black;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1D2D44;
+  }
+
+  input[type=submit] {
+    cursor: pointer;
+    background-color: #6290C8;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+  }
