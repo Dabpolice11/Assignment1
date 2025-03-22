@@ -12,15 +12,51 @@ body {
     ;
 }
 
+.On::before {
+    content: "☰";
+}
+
+.Off::before {
+    content: "X";
+}
+
 
 nav {
-    display: block;
+    display: none;
     background-color: #1d3461;
     position: fixed;
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
+}
+
+#NavOn:target {
+    display: block;
+}
+
+.On,
+.Off {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2em;
+}
+
+.On {
+    display: block;
+}
+
+.Off {
+    display: none;
+}
+
+#NavOn:target~.On {
+    display: none;
+}
+
+#NavOff:target~.Off {
+    display: block;
 }
 
 .navbar {
@@ -33,25 +69,4 @@ nav {
     display: block;
     padding: 10px;
     text-decoration: underline;
-}
-
-.navbar a:hover {
-    background-color: #1D2D44;
-}
-
-
-#Clicked .On {
-    display: block;
-}
-
-#Clicked .Off {
-    display: none;
-}
-
-#Clicked:target .On {
-    display: none;
-}
-
-#Clicked:target .Off {
-    display: block;
 }
