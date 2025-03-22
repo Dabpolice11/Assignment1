@@ -26,10 +26,6 @@ p{
 
 li{
     color: white;
-    font-family: "Winky Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
 a{
@@ -115,24 +111,7 @@ footer{
     border-radius: 5%;
 }
 
-.navbar{
-    width: 100%;
-    background-color: #1D3461;
-    overflow:auto;
-}
 
-.navbar a {
-    float: left;
-    color: white;
-    text-decoration: underline;
-    font-size: 2em;
-    width: 20%;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: #1D2D44;
-}
 
 .Index{
     background-color: #3E5C76;
