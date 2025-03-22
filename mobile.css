@@ -38,3 +38,19 @@ nav {
     width: 50%;
     height: 100vh;
 }
+
+#Clicked .On{
+    display: block;
+    }
+    
+    #Clicked .Off{
+        display: none;
+    }
+    
+    #Clicked:target .On{
+        display: none;
+    }
+    
+    #Clicked:target .Off{
+        display: block;
+    }

@@ -12,3 +12,10 @@ body{
         ;
 }
 
+#Clicked .On{
+    display: none;
+    }
+    
+    #Clicked .Off{
+        display: none;
+    }
