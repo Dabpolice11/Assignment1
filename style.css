@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +13,23 @@ h1{
         font-variation-settings:
           "wdth" 100;
     text-decoration: underline;
+    
 }
 
 p{
     color: #FFFFFF;
+    font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+li{
+    color: white;
+    font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 a{
@@ -24,6 +38,7 @@ a{
 }
 
 body{
+    text-align: center;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows:auto ;
@@ -34,11 +49,14 @@ body{
         "footer footer footer footer"
         ;
 }
+
+
 header{
     background-color: #1F487E;
     padding: 1em;
     color: #FFFFFF;
     grid-area: header;
+    font-size: 1.5em;
 }
 
 nav{
@@ -47,6 +65,10 @@ nav{
     grid-area: nav;
     font-family: 'Times New Roman', Times, serif;
     padding: 2em;
+    font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 main{
@@ -54,6 +76,7 @@ main{
     color: #FFFFFF;
     grid-area: main;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
     padding: 1em;
 }
 
@@ -62,6 +85,11 @@ aside{
     color: #FFFFFF;
     grid-area: aside; 
     padding: 1em;
+    font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 1.5em;
 }
 
 footer{
@@ -69,6 +97,11 @@ footer{
     color: #FFFFFF;
     grid-area: footer;
     padding: 1em;
+    font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 1em;
 }
 
 .indexText{
@@ -76,21 +109,20 @@ footer{
 }
 
 .CartoonOfMe{
-    border: solid;
+    border: double;
     border-color: black;
     border-width: 1em;
+    border-radius: 25%;
     
 }
+
+
 
 .PlaceholderImage{
     border: solid;
     border-color: black;
     border-width: 1em;
-}
-
-.content{
-    max-width: 500px;
-    margin: auto;
+    border-radius: 5%;
 }
 
 .navbar{
@@ -111,3 +143,4 @@ footer{
 .navbar a:hover{
     background-color: #000;
 }
+
