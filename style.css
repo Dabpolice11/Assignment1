@@ -89,6 +89,13 @@ footer {
     font-size: 1em;
 }
 
+.SiteReportText{
+    color: #FFFFFF;
+    grid-area: main;
+    font-size: 1em;
+    padding: 1em;
+}
+
 .indexText {
     padding: 1.5em;
 }
@@ -113,6 +120,8 @@ footer {
     border-color: black;
     border-width: 1em;
     border-radius: 5%;
+    width: 90%;
+    height: auto;
 }
 
 input[type=text],
