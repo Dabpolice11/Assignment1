@@ -101,23 +101,25 @@ footer {
     border-radius: 5%;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     box-sizing: border-box;
     padding: 8px;
     border: 0.5em solid black;
     margin-bottom: 2em;
     margin-top: 1em;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #1D2D44;
-  }
+}
 
-  input[type=submit] {
+input[type=submit]:hover {
+    background-color: #1D2D44;
+}
+
+input[type=submit] {
     cursor: pointer;
     background-color: #6290C8;
     color: white;
     padding: 8px;
     border-radius: 4px;
-  }
+}
