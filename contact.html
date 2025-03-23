@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
     <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
+    <!--This loads the CSS files in and specifies at what screen width will the CSS change-->
 </head>
 
 <body>
     <nav id="NavOn">
         <div class="navbar">
+            <!--This has a class which will allow the nav bar to have CSS on it-->
             <a class="active" href="index.html">Index</a>
             <a href="project.html">Projects</a>
             <a href="contact.html">Contact</a>
             <a href="videoDEMO.HTML">Video Demo</a>
             <a href="sitereport.html">Site Report</a>
+            <!--This is the navigation code which when the user clicks will takw them to the page-->
         </div>
     </nav>
 
@@ -25,6 +28,7 @@
         <a class="On" href="#NavOn"></a>
         <a class="Off" href="#"></a>
         <h1>Contact information</h1>
+        <!--This is the header-->
     </header>
 
     <main>
@@ -34,6 +38,7 @@
             <li>Email Address</li>
             <li>Instagram</li>
             <li>Facebook</li>
+            <!--This is the main text of the page-->
         </ul>
 
 
@@ -41,36 +46,41 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d597.9596830069106!2d-70.25015087855272!3d-18.529290794971892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915007d55f6f43d5%3A0x3c509cbe3d757497!2sCoca%20cola!5e1!3m2!1sen!2suk!4v1742609987224!5m2!1sen!2suk"
             width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--This will load an iframe onto the website which will then be filled with a google maps-->
 
         <form action="mailto:callum.kendrick24@my.northampton.ac.uk" method="get">
+            <!--This will mail the response of the form bellow to my email-->
 
             <label for="FirstName">First Name</label>
-
+<!--This is the label for the firstname-->
             <input type="text" name="FirstName" id="FirstName" placeholder="Enter your First name" required>
-
+<!--This will create the text box and allow the user to input their first name-->
             <label for="LastName">Last Name</label>
-
+<!--This is the label for the last name-->
             <input type="text" name="LastName" id="LastName" placeholder="Enter your Last name" required>
-
+<!--This will create the text box and allow the user to input their last name-->
             <label for="PNum">Phone Number</label>
-
+<!--This is the label for the phone number-->
             <input type="text" name="PNum" id="PNum" placeholder="Enter your phone number" required>
-
+<!--This will create the text box and allow the user to input their phone number-->
             <label for="Email">Email</label>
-
+<!--This is the label for the email-->
             <input type="text" name="Email" id="Email" placeholder="Enter your Email" required>
-
+<!--This will create the text box and allow the user to input their email-->
             <label for="Country">Country</label>
-
+<!--This is the label for the country-->
             <select name="Country" id="Country">
                 <option value="United Kingdom">United Kingdom</option>
                 <option value="USA">USA</option>
                 <option value="Germany">Germany</option>
                 <option value="France">France</option>
                 <option value="Netherlands">Netherlands</option>
+                <!--This will create the selection box and will fill it with countries for the user to select from-->
             </select>
 
             <input type="submit" value="Submit">
+            <!--This will create a submit button at the bottom of the page for the user to press once ecompleted-->
+            <!--Required has been put on the end of each text box so that the user cannot submit without fillimg in all the boxes-->
         </form>
 
     </main>
@@ -78,15 +88,18 @@
     <aside>
         <h2>
             Side bar
+            <!--This is the header for the sidebar-->
         </h2>
 
         <p>
             Things such as other websites or adverts may go here
+            <!--This is the main text of the sidebar-->
         </p>
     </aside>
 
     <footer>
         <p>&copy; Callum Kendrick 2025</p>
+        <!--This is the text in the footer-->
     </footer>
 </body>
 

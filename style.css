@@ -1,22 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tektur:wght@400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+/*imports fonts from google fonts*/
 
 * {
     margin: 0;
     padding: 0;
+    /*this will reset the whole website enurimg that there is no gabs between the build and the browser*/
 }
-
+/*to save time im going to explain things once and if they appear again please refer to previous comments*/
 h1 {
+    /*This will style the h1 tag*/
     color: #FFFFFF;
+    /*this sets the text colour to white*/
     font-family: "Tektur", sans-serif;
+    /*this sets the font*/
     font-weight: 700;
+    /*this sets how 'heavy' the font appears */
     font-variation-settings:
         "wdth" 100;
+        /*this ajusts the width of the font*/
     text-decoration: underline;
+    /*this underlines the font*/
 
 }
 
 h2 {
+    /*this will style the h2 tag*/
     color: #FFFFFF;
     font-family: "Tektur", sans-serif;
     font-weight: 700;
@@ -27,19 +36,26 @@ h2 {
 }
 
 p{
+    /*this will style the p tag*/
     color: #FFFFFF;
     grid-area: main;
+    /*this will assign it to the main grid area*/
     font-size: 1.5em;
+    /*this will set the font size*/
     padding: 1em;
+    /*this will set the padding within the box model*/
 }
 
 a {
+    /*this will style the a tag*/
     color: #FFFFFF;
 }
 
 
 header {
+    /*this will style the header*/
     background-color: #1D2D44;
+    /*this will set the background colour*/
     padding: 1em;
     color: #FFFFFF;
     grid-area: header;
@@ -48,6 +64,7 @@ header {
 }
 
 nav {
+    /*this will style the nav tag*/
     background-color: #1D3461;
     color: #FFFFFF;
     grid-area: nav;
@@ -60,6 +77,7 @@ nav {
 }
 
 main {
+    /*this will style the main tag*/
     background-color: #3E5C76;
     color: #FFFFFF;
     grid-area: main;
@@ -69,6 +87,7 @@ main {
 }
 
 aside {
+    /*this will style the aside tag*/
     background-color: #1D3461;
     color: #FFFFFF;
     grid-area: aside;
@@ -79,6 +98,7 @@ aside {
 }
 
 footer {
+    /*this will style the footer tag*/
     background-color: #6290C8;
     color: #FFFFFF;
     grid-area: footer;
@@ -90,6 +110,7 @@ footer {
 }
 
 .SiteReportText{
+    /*this will style the site report text class*/
     color: #FFFFFF;
     grid-area: main;
     font-size: 1em;
@@ -97,18 +118,25 @@ footer {
 }
 
 .indexText {
+    /*this will style the index text class*/
     padding: 1.5em;
 }
 
 .CartoonOfMe {
+    /*this will style the cartoon image if me border*/
     border: double;
+    /*this specifies what type of border*/
     border-color: black;
+    /*this specifies what colour the border is*/
     border-width: 1em;
+    /*this specifies the border width*/
     border-radius: 25%;
+    /*this will cruve the edges on the border*/
 
 }
 
 .PlaceholderImage {
+    /*this will style the place holder images class*/
     border: solid;
     border-color: black;
     border-width: 1em;
@@ -116,31 +144,39 @@ footer {
 }
 
 .ValidationImages{
+    /*this will style the validation images class*/
     border: solid;
     border-color: black;
     border-width: 1em;
     border-radius: 5%;
     width: 90%;
+    /*this will change the width of the image*/
     height: auto;
+    /*this will automatiocally assign the height of the image*/
 }
 
 input[type=text],
 select,
 textarea {
+    /*this is the style for the input boxes on the contact page*/
     width: 100%;
     box-sizing: border-box;
     padding: 8px;
     border: 0.5em solid black;
     margin-bottom: 2em;
     margin-top: 1em;
+    /*this will set the margins in the box model*/
 }
 
 input[type=submit]:hover {
+    /*this will create a hover effect on the submit button*/
     background-color: #1D2D44;
 }
 
 input[type=submit] {
+    /*this will style the submit button*/
     cursor: pointer;
+    /*this will make the users cursor to a pointer when the hover over it*/
     background-color: #6290C8;
     color: white;
     padding: 8px;

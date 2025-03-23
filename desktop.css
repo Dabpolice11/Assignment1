@@ -1,68 +1,101 @@
 body {
+    /*This styles the main body with a grid layout for each page*/
     text-align: center;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    /*Creates 4 columns in the grid*/
     grid-template-rows: auto;
     grid-template-areas:
         "nav nav nav nav"
         "header header header header"
         "main main main aside"
         "footer footer footer footer"
+        /*This sets the layout of the page with what goes in each row and column*/
     ;
 }
 
 .ProjectGrid{
+    /*This is a class for the projects page as it has a different grid layout to the others*/
     text-align: center;
     display: grid;
     grid-template-columns: 25% 50% 25%;
+    /*Creates 3 columns in the grid*/
     grid-template-rows: auto;
     grid-template-areas:
         "nav nav nav"
         "header header header"
         "article main aside"
         "footer footer footer"
+         /*This sets the layout of the page with what goes in each row and column*/
     ;
 }
 
 #NavOn .On {
     display: none;
+    /*This hides the on button that appears on the mobile version*/
 }
 
 #NavOn .Off {
     display: none;
+    /*This hides the on button that appears off the mobile version*/
 }
 
 .navbar {
+    /*This styles the navigation bar*/
     width: 100%;
+    /*This makes sure it reaches all the way across the screen*/
     background-color: #1D3461;
+    /*This sets the background colour of the bar*/
     overflow: auto;
+    /*This handles any sort of overflow*/
 }
 
 .navbar a {
+    /*This styles the links on the navbar*/
     float: left;
+    /*sets the links to the left*/
     color: white;
+    /*sets the writing as white*/
     text-decoration: underline;
+    /*sets them as underlines*/
     font-size: 2em;
+    /*sets the font size to 2em*/
     width: 20%;
+    /*sets equal width for the links, 20% because there is 5 of them */
     text-align: center;
+    /*centers the text in the links*/
 }
 
 .navbar a:hover {
+    /*This will change the colour of the background of the links when the user hovers over them*/
     background-color: #1D2D44;
+    /*This is the colour that the hover effect will be*/
 }
 
 .Index {
+    /*This will style the index secion*/
     background-color: #3E5C76;
+    /*Changes the backgound colour*/
     color: #FFFFFF;
+    /*changes the text colour to white*/
     grid-area: main;
+    /*assigns to the main grid area*/
     font-size: 1.5em;
+    /*changes the font size*/
     padding: 1em;
+    /*adds padding in the box method*/
     background-image: url('code.jpg');
+    /*sets the background image as the code*/
     background-repeat: no-repeat;
+    /*ensures the image doesnt repeat itself*/
 }
 
 article {
+    /*this styles the article section*/
     background-image: url(code-wallpaper.jpg);
+    /*This sets the background image*/
     background-size: cover;
+    /*this ensures it covers the whole sectionm*/
     background-repeat: no-repeat;
+    /*This ensures it doesnt repeat*/
 }

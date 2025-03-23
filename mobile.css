@@ -1,7 +1,9 @@
 body {
+    /*This styles the main body with a grid layout for each page*/
     text-align: center;
     display: grid;
     grid-template-columns: 100%;
+    /*Creates 1 column in the grid*/
     grid-template-rows: auto;
     grid-template-areas:
         "header"
@@ -9,29 +11,38 @@ body {
         "main"
         "aside"
         "footer"
+        /*This sets the layout of the page with what goes in each row and column*/
     ;
 }
 
 .On::before {
+    /*this adds the hamburger icon before everything*/
     content: "☰";
 }
 
 
 nav {
+    /*styles the nav menu for the mobile*/
     display: none;
+    /*this will by defualt hide the nav*/
     background-color: #1d3461;
+    /*sets the background colour of the nav*/
     position: fixed;
+    /*This fixes the nav in place*/
     top: 0;
     left: 50%;
     width: 50%;
     height: 100vh;
+    /*this sets the size of the nav so it covers the whole screen vertically and half of the screen horizantily*/
 }
 
 #NavOn:target {
+    /*This will make the make the nav viable when its targetted*/
     display: block;
 }
 
 .On {
+    /*this all will position and style the hamburger menu trigger*/
     position: absolute;
     top: 10px;
     left: 10px;
@@ -40,18 +51,22 @@ nav {
 }
 
 .On {
+    /*this ensures the hamburger icon is visable*/
     display: block;
 }
 
 #NavOn:target~.On {
+    /*hides the trigger button*/
     display: none;
 }
 
 .navbar {
+    /*styling for the navigation bar*/
     width: 150px;
 }
 
 .navbar a {
+    /*styling for the navigation links*/
     background-color: #6290C8;
     color: white;
     display: block;
